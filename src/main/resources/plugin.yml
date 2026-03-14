@@ -1,0 +1,15 @@
+name: WoodsPixelBazaar
+version: 1.0.0
+main: com.woodspixelbazaar.WoodsPixelBazaar
+api-version: '1.20'
+authors: [WoodsPixel]
+depend: [Vault]
+commands:
+  bazaar:
+    description: Open and interact with the WoodsPixel Bazaar.
+    usage: /bazaar [buy|sell|price|history|reload|setprice]
+    aliases: [bz]
+permissions:
+  woodspixelbazaar.admin:
+    description: Access to admin bazaar commands.
+    default: op
